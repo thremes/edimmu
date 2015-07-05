@@ -795,6 +795,7 @@ object {
 
 .gallery-item {
     display: inline-block;
+    margin-bottom: 1em;
     text-align: center;
     vertical-align: top;
     width: 100%;
