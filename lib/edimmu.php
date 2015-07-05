@@ -13,9 +13,5 @@
 
 require_once( 'class-edimmu.php' );
 
-/*
- * the theme
- */
-
 $edimmu = new Edimmu();
 add_action( 'after_setup_theme', array( $edimmu, 'setup' ) );
