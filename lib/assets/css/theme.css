@@ -320,7 +320,9 @@ select {
     width: 100%
 }
 
-/*.search-submit { margin-bottom: 1.5em }*/
+.search-submit {
+    margin-bottom: 1.5em
+}
 
 /*--------------------------------------------------------------
 # Navigation
@@ -333,10 +335,6 @@ select {
 a {
     color: #8D8D8D
 }
-
-/*a:visited {*/
-/*color: #555*/
-/*}*/
 
 a:hover,
 a:focus,
@@ -501,11 +499,19 @@ a:active {
 # Widgets
 --------------------------------------------------------------*/
 
-/*.widget { margin: 0 0 1.5em }*/
+.widget {
+    margin: 0 0 1.5em
+}
+
 /* Make sure select elements fit in widgets. */
-/*.widget select { max-width: 100% }*/
+.widget select {
+    max-width: 100%
+}
+
 /* Search widget. */
-/*.widget_search .search-submit { display: none }*/
+.widget_search .search-submit {
+    display: none
+}
 
 /*--------------------------------------------------------------
 # Content
