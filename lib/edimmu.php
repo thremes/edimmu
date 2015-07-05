@@ -12,7 +12,6 @@
  */
 
 require_once( 'class-edimmu.php' );
-require_once( 'class-edimmu-assets.php' );
 
 /*
  * the theme
@@ -20,10 +19,3 @@ require_once( 'class-edimmu-assets.php' );
 
 $edimmu = new Edimmu();
 add_action( 'after_setup_theme', array( $edimmu, 'setup' ) );
-
-/*
- * the theme assets
- */
-
-$edimmu_assets = new Edimmu_Assets();
-add_action( 'after_setup_theme', array( $edimmu_assets, 'setup' ) );
