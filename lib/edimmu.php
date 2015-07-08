@@ -11,13 +11,15 @@
  * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
-require_once( 'class-edimmu.php' );
-require_once( 'class-edimmu-assets.php' );
+require_once( 'inc/class-edimmu-google-fonts.php' );
 
 /*
  * Turn on the lights
  * ... and bootstrap the theme
  */
+
+require_once( 'class-edimmu.php' );
+require_once( 'class-edimmu-assets.php' );
 
 Edimmu::bootstrap( array(
     new Edimmu(),
