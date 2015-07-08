@@ -14,7 +14,12 @@
 require_once( 'class-edimmu.php' );
 require_once( 'class-edimmu-assets.php' );
 
-Edimmu::hook( array(
+/*
+ * Turn on the lights
+ * ... and bootstrap the theme
+ */
+
+Edimmu::bootstrap( array(
     new Edimmu(),
     new Edimmu_Assets(),
 ) );

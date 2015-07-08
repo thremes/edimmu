@@ -9,7 +9,7 @@ final class Edimmu
      * @param array $hookable
      * @param int   $priority
      */
-    static function hook( array $hookable, $priority = 10 )
+    static function bootstrap( array $hookable, $priority = 10 )
     {
         foreach ( $hookable as $functionality ) {
             if ( method_exists( $functionality, '__setup' ) ) {
