@@ -12,6 +12,9 @@
  */
 
 require_once( 'class-edimmu.php' );
+require_once( 'class-edimmu-assets.php' );
 
-$edimmu = new Edimmu();
-add_action( 'after_setup_theme', array( $edimmu, 'setup' ) );
+Edimmu::hook( array(
+    new Edimmu(),
+    new Edimmu_Assets(),
+) );
